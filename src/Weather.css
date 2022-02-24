@@ -1,4 +1,4 @@
-.container .weather-app-wrapper {
+.container {
   max-width: 600px;
   margin: 30px auto;
   background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
