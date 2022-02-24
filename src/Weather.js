@@ -50,13 +50,14 @@ export default function Weather() {
                 <img
                   src={weatherData.imgUrl}
                   className="weather-icon float-left"
+                  alt="weather-icon"
                 />
                 <strong className="temperature">
                   {weatherData.temperature}{" "}
                 </strong>
                 <span className="units">
                   <a href="/" className="active">
-                    °C{" "}
+                    °C{""}
                   </a>
                   |
                   <a href="/" className="fahrenheit-sign">
@@ -65,7 +66,9 @@ export default function Weather() {
                 </span>
               </div>
               <div className="weather-attributes">
-                <h6 className="card-subtitle mb-2 text-muted weather-condition"></h6>
+                <h6 className="card-subtitle mb-2 text-muted weather-condition">
+                  {" "}
+                </h6>
                 <br />
 
                 <h6 className="card-subtitle mb-2 text-muted">
