@@ -95,8 +95,15 @@ export default function Weather() {
         </div>
       </div>
       <br />
-
       <div class="weather-forecast"></div>
+      <a
+        href="https://github.com/ytisdel/weather-react-app"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Open-Sourced
+      </a>{" "}
+      by Yalona Tisdel
     </div>
   );
 }
